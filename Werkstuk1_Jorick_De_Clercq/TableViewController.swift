@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MapKit
 
 class TableViewController: UITableViewController {
     
@@ -21,7 +22,20 @@ class TableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         
-        personen.append(Persoon(Naam: "De Clercq", Voornaam: "Jorick", Image: UIImage(named:"Jorick")!))
+        // hier komen alle adressen die opgeslagen worden
+        let adresJorick = Adress(Straat: "Sint Rochusstraat", Huisnummer: 33, Postcode: 1500, Gemeente: "HALLE")
+        let adresMaike = Adress(Straat: "Biezewijde", Huisnummer: 5, Postcode: 1500, Gemeente: "HALLE")
+        let adresYolan = Adress(Straat: "Brussel straat", Huisnummer: 0, Postcode: 1840, Gemeente: "LONDERZEEL")
+        
+        // hier definieert men de coordinaten waar de persoon zich bevindt
+        let coordinaatJorick = CLLocationCoordinate2D(latitude: 50.731510, longitude: 4.240102)
+        let coordinaatMaike = CLLocationCoordinate2D(latitude: 50.728718, longitude: 4.242363)
+        let coordinaatYolan = CLLocationCoordinate2D(latitude: 50.999696, longitude: 4.300823)
+        
+        // hier schrijgt men de persoon weg in de Persoons klasse
+        personen.append(Persoon(Naam: "De Clercq", Voornaam: "Jorick", Image: UIImage(named:"Jorick")!, Adres: adresJorick, Coordinaat: coordinaatJorick))
+        personen.append(Persoon(Naam: "Meuris", Voornaam: "Maike", Image: UIImage(named:"Maike")!, Adres: adresMaike, Coordinaat: coordinaatMaike))
+        personen.append(Persoon(Naam: "Christoria", Voornaam: "Yolan", Image: UIImage(named:"Yolan")!, Adres: adresYolan, Coordinaat: coordinaatYolan))
         
         
     }

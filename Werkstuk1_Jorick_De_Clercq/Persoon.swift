@@ -7,18 +7,23 @@
 //
 
 import Foundation
-
+import MapKit
 import UIKit
 
 class Persoon: NSObject {
     var naam : String?
     var voornaam : String?
     var image:UIImage
+    var adres : Adress
+    var coordinaat : CLLocationCoordinate2D
+    
    
-    init(Naam:String, Voornaam:String, Image:UIImage) {
+    init(Naam:String, Voornaam:String, Image:UIImage, Adres:Adress, Coordinaat:CLLocationCoordinate2D) {
         naam = Naam
         voornaam = Voornaam
         image = Image
+        adres = Adres
+        coordinaat = Coordinaat
     }
 }
 
