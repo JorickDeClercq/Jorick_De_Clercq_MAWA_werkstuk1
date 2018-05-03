@@ -15,6 +15,8 @@
 		6BDB1FEF209B434C00FC53D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BDB1FED209B434C00FC53D2 /* LaunchScreen.storyboard */; };
 		6BDB1FFA209B434C00FC53D2 /* Werkstuk1_Jorick_De_ClercqTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDB1FF9209B434C00FC53D2 /* Werkstuk1_Jorick_De_ClercqTests.swift */; };
 		6BDB2005209B434C00FC53D2 /* Werkstuk1_Jorick_De_ClercqUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDB2004209B434C00FC53D2 /* Werkstuk1_Jorick_De_ClercqUITests.swift */; };
+		6BDB2013209B449F00FC53D2 /* Persoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDB2012209B449F00FC53D2 /* Persoon.swift */; };
+		6BDB2015209B488C00FC53D2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDB2014209B488C00FC53D2 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		6BDB2000209B434C00FC53D2 /* Werkstuk1_Jorick_De_ClercqUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Werkstuk1_Jorick_De_ClercqUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BDB2004209B434C00FC53D2 /* Werkstuk1_Jorick_De_ClercqUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Werkstuk1_Jorick_De_ClercqUITests.swift; sourceTree = "<group>"; };
 		6BDB2006209B434C00FC53D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BDB2012209B449F00FC53D2 /* Persoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persoon.swift; sourceTree = "<group>"; };
+		6BDB2014209B488C00FC53D2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				6BDB1FED209B434C00FC53D2 /* LaunchScreen.storyboard */,
 				6BDB1FF0209B434C00FC53D2 /* Info.plist */,
 				6BDB1FE8209B434C00FC53D2 /* Werkstuk1_Jorick_De_Clercq.xcdatamodeld */,
+				6BDB2012209B449F00FC53D2 /* Persoon.swift */,
+				6BDB2014209B488C00FC53D2 /* TableViewController.swift */,
 			);
 			path = Werkstuk1_Jorick_De_Clercq;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 			files = (
 				6BDB1FE4209B434C00FC53D2 /* ViewController.swift in Sources */,
 				6BDB1FEA209B434C00FC53D2 /* Werkstuk1_Jorick_De_Clercq.xcdatamodeld in Sources */,
+				6BDB2013209B449F00FC53D2 /* Persoon.swift in Sources */,
+				6BDB2015209B488C00FC53D2 /* TableViewController.swift in Sources */,
 				6BDB1FE2209B434C00FC53D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
